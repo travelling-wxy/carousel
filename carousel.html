@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>幻灯片-组件</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/carousel.css">
+</head>
+
+<body>
+	<div id="carousel-wrapper"></div>
+
+	<script src="js/util.js"></script>
+	<script src="js/carousel.js"></script>
+	<script type="text/javascript">
+	window.onload = function() {
+		var carousel = new Carousel({
+			width: "1180px",
+			height: "98px",
+			url: "carousel.json",
+			duration: 3000
+		});
+	};
+	</script>
+</body>
+</html>

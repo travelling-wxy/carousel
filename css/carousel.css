@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body,div,ul,ol,li,a,img {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+	font-family: "Microsoft Yahei";
+	font-size: 12px;
+}
+#carousel-wrapper {
+	width: 1180px;
+	height: 98px;
+	position: relative;
+	overflow: hidden;
+	background-color: #333;
+}
+.carousel-list {
+	position: relative;
+	top: 0;
+	left: 0;
+	/*transition: top 0.5s ease-in-out;*/
+}
+.carousel-list a {
+	display: block;
+	height: 98px;
+}
+.carousel-pager {
+	position: absolute;
+	bottom: 5px;
+	right: 1px;
+}
+.carousel-pager .page-number {
+	width: 15px;
+	padding: 2px 0;
+	margin-right: 5px;
+	color: #999;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	cursor: pointer;
+}
+.carousel-pager .page-active {
+	color: #fff;
+	background-color: #f60;
+	font-weight: bold;
+}
